@@ -21,7 +21,7 @@ public class PanelSynthese extends javax.swing.JPanel implements Observer{
      * Creates new form PanelSynthese
      */
     public PanelSynthese() {
-        partie.addObserver(this);
+        //partie.addObserver(this);
         initComponents();
     }
     
