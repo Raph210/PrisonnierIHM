@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="Coopere1" min="-2" max="-2" attributes="0"/>
+                  <Component id="FaitDefaut1" min="-2" max="-2" attributes="0"/>
+                  <Component id="AB" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="Coopere2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonCC" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jButtonDC" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButtonDD" min="-2" max="-2" attributes="0"/>
+                  <Component id="FaitDefaut2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonCD" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="95" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Coopere2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FaitDefaut2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Coopere1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonCC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonCD" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FaitDefaut1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonDC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonDD" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="150" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="AB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A | B"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Coopere2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Coop&#xe8;re"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FaitDefaut2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fait D&#xe9;faut"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FaitDefaut1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fait D&#xe9;faut"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Coopere1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Coop&#xe8;re"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonCC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C C"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCCActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonCD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C D"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonDC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D C"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDCActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonDD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D D"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDDActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
