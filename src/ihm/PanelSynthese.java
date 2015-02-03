@@ -59,6 +59,8 @@ public class PanelSynthese extends javax.swing.JPanel implements Observer{
         RepScoreA = new javax.swing.JLabel();
         RepScoreB = new javax.swing.JLabel();
 
+        setBorder(javax.swing.BorderFactory.createTitledBorder("Synthèse"));
+
         NbCoups.setText("Nb de coups :");
 
         ScoreA.setText("Score de A :");
@@ -76,7 +78,7 @@ public class PanelSynthese extends javax.swing.JPanel implements Observer{
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(50, 50, 50)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(NbCoups)
                     .addComponent(ScoreA)
@@ -86,12 +88,12 @@ public class PanelSynthese extends javax.swing.JPanel implements Observer{
                     .addComponent(RepScoreB)
                     .addComponent(RepScoreA)
                     .addComponent(RepNbCoups))
-                .addContainerGap(260, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(66, 66, 66)
+                .addGap(20, 20, 20)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(NbCoups)
                     .addComponent(RepNbCoups))
@@ -103,7 +105,7 @@ public class PanelSynthese extends javax.swing.JPanel implements Observer{
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ScoreB)
                     .addComponent(RepScoreB))
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

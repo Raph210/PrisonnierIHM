@@ -45,6 +45,8 @@ public class PanelNouveauCoup extends javax.swing.JPanel {
         jButtonDC = new javax.swing.JButton();
         jButtonDD = new javax.swing.JButton();
 
+        setBorder(javax.swing.BorderFactory.createTitledBorder("Prochain Coup"));
+
         AB.setText("A | B");
 
         Coopere2.setText("Coopère");
@@ -88,7 +90,7 @@ public class PanelNouveauCoup extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Coopere1)
                     .addComponent(FaitDefaut1)
@@ -104,12 +106,12 @@ public class PanelNouveauCoup extends javax.swing.JPanel {
                     .addComponent(jButtonDD)
                     .addComponent(FaitDefaut2)
                     .addComponent(jButtonCD))
-                .addContainerGap(95, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(42, 42, 42)
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(AB)
                     .addComponent(Coopere2)
@@ -124,7 +126,7 @@ public class PanelNouveauCoup extends javax.swing.JPanel {
                     .addComponent(FaitDefaut1)
                     .addComponent(jButtonDC)
                     .addComponent(jButtonDD))
-                .addContainerGap(150, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
