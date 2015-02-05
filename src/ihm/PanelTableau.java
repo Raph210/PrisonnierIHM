@@ -32,7 +32,7 @@ public class PanelTableau extends javax.swing.JPanel implements Observer {
     }
     public PanelTableau(Partie partie){
        modele=new Tableau();
-        partie=new Partie();
+        this.partie=partie;
         initComponents(); 
         partie.addObserver(this);
                

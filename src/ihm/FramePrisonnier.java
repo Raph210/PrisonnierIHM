@@ -32,7 +32,7 @@ public class FramePrisonnier extends javax.swing.JFrame {
 
         panelNouveauCoup1 = new PanelNouveauCoup(partie);
         panelSynthese1 = new PanelSynthese(partie);
-        panelTableau1 = new ihm.PanelTableau();
+        panelTableau1 = new PanelTableau(partie);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 

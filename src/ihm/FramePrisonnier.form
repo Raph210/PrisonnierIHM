@@ -72,6 +72,9 @@
       </AuxValues>
     </Component>
     <Component class="ihm.PanelTableau" name="panelTableau1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new PanelTableau(partie)"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>
